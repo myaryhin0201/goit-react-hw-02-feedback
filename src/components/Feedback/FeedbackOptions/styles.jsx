@@ -4,6 +4,7 @@ const useStyles = createUseStyles({
     width: '150px',
     padding: '10px 0',
     border: '0',
+    fontSize: '20px',
     borderRadius: '10px',
     '&:hover, &:focus': {
       backgroundColor: 'aqua',
@@ -17,9 +18,7 @@ const useStyles = createUseStyles({
     backgroundColor: 'lawngreen',
   },
   bad: {
-    backgroundColor: {
-      backgroundColor: 'red',
-    },
+    backgroundColor: 'red',
   },
   neutral: {
     backgroundColor: 'orange',
