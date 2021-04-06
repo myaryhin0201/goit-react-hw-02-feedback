@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import useStyles from './styles';
+import useStyles from './StatisticsStyles';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   const classes = useStyles();

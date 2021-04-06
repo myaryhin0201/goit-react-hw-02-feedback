@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import useStyles from './styles';
+import useStyles from './FeedbackOptionsStyles';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   const classes = useStyles();
